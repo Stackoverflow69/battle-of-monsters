@@ -1,0 +1,182 @@
+body {
+    display: flex;
+    font-family: 'Roboto';
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    background-color: #FAFAFA;
+
+
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.heading {
+    font-size: 36px;
+    font-weight: 400;
+    margin-top: 67px;
+
+}
+
+.sub-heading {
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 35px;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+
+.monster-selection {
+    display: flex;
+    gap: 13px;
+
+    align-items: center;
+}
+
+.monster-card {
+    width: 150px;
+    height: 139px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    padding: 6px 7px 8px 7px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    margin-top: 14px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+.monster-card img {
+    width: 100%;
+
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.card3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 415px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+    padding: 11px 1px 0px 1px;
+}
+
+
+.card-image {
+    height: 178px;
+    width: 283px;
+}
+
+.card-content {
+    padding-top: 20px;
+    text-align: start;
+}
+
+.card-title {
+    margin: 0;
+    margin-bottom: 10px;
+
+}
+
+.card-stats {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-stats li {
+    margin-bottom: 5px;
+}
+
+.stat-label {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 10px;
+
+
+
+}
+
+.win-bar {
+    background-color: #E1F8FF;
+    height: 61px;
+    width: 890px;
+    border: 1px solid black;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.win {
+    font-size: 22px;
+    font-weight: 400;
+    margin-left: 28px;
+}
+
+.progress-bar {
+    width: 283px;
+    height: 8px;
+    background-color: #ddd;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+.progress-bar-inner {
+    height: 100%;
+    background-color: #32e438;
+    border-radius: 5px;
+}
+
+.status-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.start-battle {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #10782E;
+    color: #fff;
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
